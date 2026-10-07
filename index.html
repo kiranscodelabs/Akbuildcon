@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Explore ready-to-move flats from AK Buildcon. View sample interiors and get clear details about locations, prices, and availability."
+    >
+    <meta name="theme-color" content="#f7f6f2">
+    <title>AK Buildcon | Flats ready to move into</title>
+    <link rel="preconnect" href="https://images.unsplash.com">
+    <link rel="stylesheet" href="styles.css">
+    <script src="navbar.js" defer></script>
+    <script src="footer.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <ak-navbar></ak-navbar>
+
+    <main>
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="hero-content">
+          <p class="eyebrow"><span class="eyebrow-line"></span> AK Buildcon homes</p>
+          <h1 id="hero-title">Ready-to-move<br><em>flats.</em></h1>
+          <p class="hero-copy">
+            Explore flats from AK Buildcon that are ready to move into. View sample
+            interiors, then get clear details about locations, prices, and availability.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#available-homes">View sample interiors <span aria-hidden="true">↘</span></a>
+            <a class="text-link" href="#about">About AK Buildcon</a>
+          </div>
+          <div class="hero-note">
+            <span class="note-icon" aria-hidden="true">⌂</span>
+            <span>Ready-to-move flats from AK Buildcon</span>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <img
+            class="hero-image"
+            src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1400&q=85"
+            alt="Bright apartment living room with a balcony"
+          >
+          <div class="image-caption">
+            <span class="caption-dot" aria-hidden="true"></span>
+            <span>See what your new flat could look like</span>
+          </div>
+          <span class="hero-vertical-label" aria-hidden="true">FIND YOUR PLACE · AK BUILDCON</span>
+        </div>
+        <a class="scroll-cue" href="#available-homes">
+          <span class="scroll-line" aria-hidden="true"></span>
+          Scroll to see home photos
+        </a>
+      </section>
+
+      <section class="intro section-wrap" id="properties" aria-labelledby="properties-title">
+        <div class="section-heading">
+          <p class="eyebrow"><span class="eyebrow-line"></span> Finding the right flat</p>
+          <h2 id="properties-title">Clear details.<br>A considered <em>choice.</em></h2>
+        </div>
+        <div class="intro-copy">
+          <p>
+            Buying a flat is an important decision. We provide clear information
+            about our homes so you can compare your options.
+          </p>
+          <p>
+            Review the location, price, and features of each available flat.
+            Arrange a visit to see a home before you decide.
+          </p>
+          <a class="underlined-link" href="#available-homes">View sample interiors <span aria-hidden="true">→</span></a>
+        </div>
+      </section>
+
+      <section class="homes-gallery section-wrap" id="available-homes" aria-labelledby="gallery-title">
+        <div class="gallery-heading">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-line"></span> Sample interiors</p>
+            <h2 id="gallery-title">A look inside.</h2>
+          </div>
+          <p class="gallery-intro">
+            Browse a selection of interior photos. Contact our team for current
+            flats, locations, prices, and availability.
+          </p>
+        </div>
+        <div class="gallery-controls">
+          <span class="gallery-count" aria-live="polite"><span id="gallery-current">01–03</span> <span aria-hidden="true">/</span> 06 photos</span>
+          <div class="gallery-arrows">
+            <button class="gallery-arrow" type="button" data-gallery-direction="-1" aria-label="Show previous photos">
+              <span aria-hidden="true">←</span>
+            </button>
+            <button class="gallery-arrow" type="button" data-gallery-direction="1" aria-label="Show more photos">
+              <span aria-hidden="true">→</span>
+            </button>
+          </div>
+        </div>
+        <div class="gallery-track" id="project-gallery" aria-label="Example flat photos">
+          <article class="gallery-card">
+            <img
+              src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=85"
+              alt="Bright flat living room with a sofa and large windows"
+              loading="lazy"
+            >
+            <div class="gallery-caption">
+              <span>Sample photo 01</span>
+              <h3>Living room</h3>
+            </div>
+          </article>
+          <article class="gallery-card">
+            <img
+              src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=900&q=85"
+              alt="Modern flat interior"
+              loading="lazy"
+            >
+            <div class="gallery-caption">
+              <span>Sample photo 02</span>
+              <h3>Living space</h3>
+            </div>
+          </article>
+          <article class="gallery-card">
+            <img
+              src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=900&q=85"
+              alt="Bright bedroom with simple decor"
+              loading="lazy"
+            >
+            <div class="gallery-caption">
+              <span>Sample photo 03</span>
+              <h3>Bedroom</h3>
+            </div>
+          </article>
+          <article class="gallery-card">
+            <img
+              src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=900&q=85"
+              alt="Modern flat living room"
+              loading="lazy"
+            >
+            <div class="gallery-caption">
+              <span>Sample photo 04</span>
+              <h3>Open living area</h3>
+            </div>
+          </article>
+          <article class="gallery-card">
+            <img
+              src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=85"
+              alt="Flat interior with warm colours"
+              loading="lazy"
+            >
+            <div class="gallery-caption">
+              <span>Sample photo 05</span>
+              <h3>Dining and living area</h3>
+            </div>
+          </article>
+          <article class="gallery-card">
+            <img
+              src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=900&q=85"
+              alt="Open-plan flat interior"
+              loading="lazy"
+            >
+            <div class="gallery-caption">
+              <span>Sample photo 06</span>
+              <h3>Open living space</h3>
+            </div>
+          </article>
+        </div>
+        <p class="gallery-disclaimer">
+          These are sample photos. They may not show the actual flats for sale.
+          Our team can provide current flat photos, locations, prices, and availability.
+        </p>
+        <a class="button button-outline gallery-cta" href="#contact">Enquire about availability <span aria-hidden="true">↗</span></a>
+      </section>
+
+      <section class="experience" aria-labelledby="experience-title">
+        <div class="experience-image">
+          <img
+            src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1400&q=85"
+            alt="Comfortable modern flat living room"
+            loading="lazy"
+          >
+          <div class="image-stamp" aria-hidden="true"><span>AK</span><span>BUILD<br>YOUR<br>NEXT</span></div>
+        </div>
+        <div class="experience-copy" id="about">
+          <p class="eyebrow"><span class="eyebrow-line"></span> About AK Buildcon</p>
+          <h2 id="experience-title">The details you need,<br>all in one <em>place.</em></h2>
+          <p>
+            Our team can provide information about available flats and arrange
+            a convenient time for you to view one.
+          </p>
+          <ul class="benefit-list">
+            <li><span>01</span><div><strong>Available flats</strong><p>See which homes are currently for sale.</p></div></li>
+            <li><span>02</span><div><strong>Location and price</strong><p>Review key details and flat features.</p></div></li>
+            <li><span>03</span><div><strong>Arrange a viewing</strong><p>Choose a time to see a flat in person.</p></div></li>
+          </ul>
+          <a class="button button-outline" href="#contact">Request flat details <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+
+      <section class="closing" id="contact" aria-labelledby="contact-title">
+        <div class="closing-inner">
+          <p class="eyebrow"><span class="eyebrow-line"></span> Flat enquiries</p>
+          <h2 id="contact-title">Get the details<br>you <em>need.</em></h2>
+          <p>
+            Share your enquiry below. WhatsApp will open with your message ready
+            for you to review and send.
+          </p>
+          <form class="enquiry-form" id="whatsapp-enquiry">
+            <label>
+              <span>Your name</span>
+              <input name="name" type="text" autocomplete="name" placeholder="Name" required>
+            </label>
+            <label>
+              <span>Mobile number</span>
+              <input
+                name="phone"
+                type="tel"
+                autocomplete="tel"
+                inputmode="tel"
+                placeholder="Enter your mobile number"
+                pattern="[0-9]{7,15}"
+                title="Enter 7 to 15 numbers without spaces or symbols."
+                required
+              >
+            </label>
+            <label>
+              <span>What do you need?</span>
+              <select name="interest" required>
+                <option value="" disabled selected>Choose one</option>
+                <option>Price and details</option>
+                <option>Flat location</option>
+                <option>Book a visit</option>
+                <option>Other question</option>
+              </select>
+            </label>
+            <label class="form-message">
+              <span>Your message <small>Optional</small></span>
+              <textarea name="message" rows="3" placeholder="Write your question here"></textarea>
+            </label>
+            <button class="button button-light form-submit" type="submit">
+              Send enquiry via WhatsApp <span aria-hidden="true">↗</span>
+            </button>
+            <p class="form-note">You can review or edit your message in WhatsApp before sending.</p>
+            <p class="form-error" id="form-error" role="alert" hidden></p>
+          </form>
+        </div>
+        <span class="closing-mark" aria-hidden="true">AK</span>
+      </section>
+    </main>
+
+    <ak-footer></ak-footer>
+  </body>
+</html>
