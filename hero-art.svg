@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" role="img" aria-labelledby="title desc">
+  <title id="title">AK Buildcon homes in Palghar</title>
+  <desc id="desc">A contemporary apartment building with balconies, landscaped trees and a quiet neighborhood street.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e7ebf3"/>
+      <stop offset="1" stop-color="#f5f6f8"/>
+    </linearGradient>
+    <linearGradient id="facade" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e8ebf2"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8295bd"/>
+      <stop offset="1" stop-color="#43598f"/>
+    </linearGradient>
+    <filter id="buildingShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="15" stdDeviation="17" flood-color="#111a49" flood-opacity=".19"/>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="620" fill="url(#sky)"/>
+  <circle cx="828" cy="105" r="47" fill="#c39238" opacity=".85"/>
+  <path d="M0 329c147-31 260-18 397 5 175 29 321-21 603-4v290H0Z" fill="#dce2e9"/>
+  <path d="M0 444c161-40 294-32 451-4 171 30 343-31 549-22v202H0Z" fill="#aab8b8"/>
+  <path d="M0 517c190-36 329-24 499 4 178 30 335-31 501-17v116H0Z" fill="#879a9f"/>
+
+  <g opacity=".3" fill="#ffffff">
+    <path d="M0 410h1000v6H0z"/>
+    <path d="M0 474h1000v4H0z"/>
+  </g>
+
+  <g filter="url(#buildingShadow)">
+    <path d="M219 129h500v356H219z" fill="url(#facade)"/>
+    <path d="M219 129h500v30H219z" fill="#111a49"/>
+    <path d="M219 195h500v11H219zM219 272h500v11H219zM219 349h500v11H219zM219 426h500v11H219z" fill="#d6dbe6"/>
+    <path d="M232 160h42v325h-42z" fill="#e4e8f0"/>
+    <path d="M680 160h26v325h-26z" fill="#d2d9e7"/>
+
+    <g fill="url(#glass)" stroke="#f5f6f8" stroke-width="7">
+      <path d="M291 171h70v51h-70zM393 171h70v51h-70zM495 171h70v51h-70zM597 171h56v51h-56z"/>
+      <path d="M291 248h70v51h-70zM393 248h70v51h-70zM495 248h70v51h-70zM597 248h56v51h-56z"/>
+      <path d="M291 325h70v51h-70zM393 325h70v51h-70zM495 325h70v51h-70zM597 325h56v51h-56z"/>
+      <path d="M291 402h70v51h-70zM393 402h70v51h-70zM495 402h70v51h-70zM597 402h56v51h-56z"/>
+    </g>
+
+    <g fill="#ffffff">
+      <path d="M280 227h83v8h-83zM382 227h83v8h-83zM484 227h83v8h-83zM586 227h77v8h-77z"/>
+      <path d="M280 304h83v8h-83zM382 304h83v8h-83zM484 304h83v8h-83zM586 304h77v8h-77z"/>
+      <path d="M280 381h83v8h-83zM382 381h83v8h-83zM484 381h83v8h-83zM586 381h77v8h-77z"/>
+    </g>
+
+    <path d="M375 437h89v48h-89z" fill="#d9c18f"/>
+    <path d="M391 450h58v35h-58z" fill="#43598f"/>
+    <path d="M375 434h89v7h-89z" fill="#c39238"/>
+    <path d="M211 481h516v18H211z" fill="#111a49"/>
+    <path d="M249 122h440v8H249z" fill="#43598f"/>
+  </g>
+
+  <g>
+    <path d="M113 391h17v125h-17zM846 374h17v142h-17z" fill="#8c8069"/>
+    <circle cx="121" cy="366" r="48" fill="#648275"/>
+    <circle cx="91" cy="392" r="32" fill="#789284"/>
+    <circle cx="151" cy="398" r="33" fill="#879d8b"/>
+    <circle cx="855" cy="345" r="54" fill="#5c7e73"/>
+    <circle cx="821" cy="378" r="35" fill="#748e80"/>
+    <circle cx="889" cy="382" r="36" fill="#879c88"/>
+    <path d="M101 516h41M831 516h48" stroke="#526f67" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <path d="M0 536h1000v84H0z" fill="#d7d8d7"/>
+  <path d="M0 548h1000v9H0z" fill="#f5f6f8"/>
+  <path d="m470 536-45 84h150l-45-84Z" fill="#a7afb5"/>
+  <path d="m495 548-20 37h55l-20-37Z" fill="#e8ebf2"/>
+  <g fill="#526f67">
+    <circle cx="239" cy="520" r="7"/><circle cx="268" cy="522" r="5"/><circle cx="710" cy="520" r="7"/><circle cx="738" cy="522" r="5"/>
+  </g>
+</svg>
