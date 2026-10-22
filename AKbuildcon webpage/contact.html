@@ -1,0 +1,33 @@
+<section class="contact-section" id="contact">
+  <div class="contact-card">
+    <div class="contact-intro">
+      <p class="eyebrow">LET'S TALK</p>
+      <h2>Tell us what you’re looking for</h2>
+      <p>Share a few details and we’ll open WhatsApp with your enquiry ready to send.</p>
+    </div>
+    <form class="whatsapp-form" id="whatsappForm">
+      <label class="form-field">Your name
+        <input name="name" type="text" autocomplete="name" required />
+      </label>
+      <label class="form-field">Phone number
+        <input name="phone" type="tel" autocomplete="tel" required />
+      </label>
+      <label class="form-field form-interest">Interested in
+        <select name="interest" required>
+          <option value="" selected disabled>Select an option</option>
+          <option>1 BHK flat</option>
+          <option>2 BHK flat</option>
+          <option>Industrial site</option>
+          <option>Commercial site</option>
+          <option>Joint venture</option>
+          <option>Other enquiry</option>
+        </select>
+      </label>
+      <label class="form-field form-message">Message (optional)
+        <textarea name="message" rows="4" placeholder="Tell us a little about what you need"></textarea>
+      </label>
+      <button class="button button-dark form-submit" type="submit">Continue to WhatsApp <span aria-hidden="true">↗</span></button>
+      <p class="form-status" id="whatsappFormStatus" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
