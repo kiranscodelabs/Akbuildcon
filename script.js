@@ -17,8 +17,8 @@ const fallbackMarkup = {
     <div class="hero-proof"><span>OCCUPANCY CERTIFICATE</span><span>PALGHAR NAGAR PARISHAD</span><span>7.5 KM FROM RAILWAY STATION</span></div>
   </div>
   <div class="hero-visual">
-    <img src="hero-art.svg" alt="Illustration of flats and green land parcels in Palghar" />
-    <div class="image-caption"><span class="pin">⌖</span><span><strong>Flats and sites in Palghar</strong><small>Explore the option that fits your plans.</small></span></div>
+    <img src="assets/palghar-building.png" alt="Residential apartment building in Palghar" />
+    <div class="image-caption"><span class="pin">⌖</span><span><strong>Residential property in Palghar</strong><small>Explore the building, home interiors and apartment layout.</small></span></div>
   </div>
 </section>`,
   "details.html": `<section class="section project-details" id="properties">
@@ -26,6 +26,16 @@ const fallbackMarkup = {
   <div class="offer-grid">
     <article class="offer-card"><span class="offer-number">01</span><p class="eyebrow">FLATS IN AN OC BUILDING</p><h3>1 BHK</h3><p class="offer-price">Starts from ₹16.5 lakh</p><p class="offer-description">A compact flat option in the occupied building with an Occupancy Certificate. Enquire for the available unit details.</p><a class="offer-link" href="#contact">Enquire about 1 BHK <span aria-hidden="true">↗</span></a></article>
     <article class="offer-card"><span class="offer-number">02</span><p class="eyebrow">FLATS IN AN OC BUILDING</p><h3>2 BHK</h3><p class="offer-price">Starts from ₹22.5 lakh</p><p class="offer-description">More room to make your own in the same occupied building. Ask about available units and specifications.</p><a class="offer-link" href="#contact">Enquire about 2 BHK <span aria-hidden="true">↗</span></a></article>
+  </div>
+  <div class="gallery-heading"><div><p class="eyebrow">PROPERTY GALLERY</p><h2>A closer look at the homes</h2><p class="section-intro">Explore building exteriors, example interiors and an apartment layout. Ask the team to confirm which images and plans match currently available units.</p></div></div>
+  <div class="property-gallery">
+    <figure class="gallery-card"><img src="assets/residential-rendering.png" alt="Architectural rendering of a blue and white residential building" loading="lazy" decoding="async" /><figcaption>Residential building rendering</figcaption></figure>
+    <figure class="gallery-card"><img src="assets/apartment-exterior.png" alt="Multi-storey apartment building exterior" loading="lazy" decoding="async" /><figcaption>Apartment exterior</figcaption></figure>
+    <figure class="gallery-card"><img src="assets/jay-amby-rendering.png" alt="Architectural rendering of a residential apartment building" loading="lazy" decoding="async" /><figcaption>Residential building rendering</figcaption></figure>
+    <figure class="gallery-card"><img src="assets/living-room.png" alt="Warm contemporary living room interior" loading="lazy" decoding="async" /><figcaption>Living room interior</figcaption></figure>
+    <figure class="gallery-card"><img src="assets/kitchen.png" alt="Modern fitted kitchen with warm lighting" loading="lazy" decoding="async" /><figcaption>Kitchen interior</figcaption></figure>
+    <figure class="gallery-card"><img src="assets/bedroom.png" alt="Contemporary bedroom with a large bed and warm wood finishes" loading="lazy" decoding="async" /><figcaption>Bedroom interior</figcaption></figure>
+    <figure class="gallery-card gallery-floor-plan"><img src="assets/apartment-floor-plan.png" alt="Apartment floor plan showing living room, kitchen, bedrooms, bathrooms and balconies" loading="lazy" decoding="async" /><figcaption><strong>Example apartment layout</strong><span>Check with the team for floor plans matching available units.</span></figcaption></figure>
   </div>
 </section>`,
   "benefits.html": `<section class="benefits-section" id="why-us"><div class="section inner"><p class="eyebrow">THE PROJECT AT A GLANCE</p><h2>One location, more ways to make it yours</h2><div class="benefit-grid"><article class="benefit-card"><span class="line-icon">⌂</span><p class="eyebrow">1 &amp; 2 BHK</p><h3>Flats in an occupied building</h3><p>The building has an Occupancy Certificate (OC).</p></article><article class="benefit-card"><span class="line-icon">⌖</span><p class="eyebrow">PALGHAR</p><h3>A defined local address</h3><p>Within Palghar Nagar Parishad and around 7.5 km from the railway station. Check the route and travel time for your preferred journey.</p></article></div></div></section>`,

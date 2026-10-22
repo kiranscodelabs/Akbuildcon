@@ -96,6 +96,74 @@
   text-underline-offset: 3px;
 }
 
+.gallery-heading {
+  margin: 48px 0 20px;
+}
+
+.gallery-heading h2 {
+  margin: 0;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.property-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.gallery-card {
+  min-width: 0;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 8px 24px #132c3808;
+}
+
+.gallery-card > img {
+  display: block;
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.gallery-card figcaption {
+  padding: 12px 14px;
+  color: var(--ink);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.gallery-floor-plan {
+  display: grid;
+  grid-column: 1 / -1;
+  grid-template-columns: minmax(0, 1fr) minmax(180px, .8fr);
+  align-items: center;
+}
+
+.gallery-floor-plan > img {
+  height: 300px;
+  padding: 10px;
+  background: #f8f7f3;
+  object-fit: contain;
+}
+
+.gallery-floor-plan figcaption {
+  display: grid;
+  gap: 8px;
+  padding: 24px;
+}
+
+.gallery-floor-plan figcaption span {
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
 .project-facts {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -287,9 +355,50 @@
     padding-bottom: 38px;
   }
 
+  .gallery-heading {
+    margin-top: 36px;
+  }
+
+  .property-gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .gallery-card > img {
+    height: 170px;
+  }
+
+  .gallery-floor-plan {
+    grid-column: span 2;
+    grid-template-columns: minmax(0, 1fr) minmax(130px, .8fr);
+  }
+
+  .gallery-floor-plan > img {
+    height: 230px;
+  }
+
   .hero-actions {
     align-items: flex-start;
     flex-direction: column;
     gap: 13px;
+  }
+}
+
+@media (max-width: 420px) {
+  .property-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-card > img {
+    height: 220px;
+  }
+
+  .gallery-floor-plan {
+    grid-column: auto;
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-floor-plan > img {
+    height: 280px;
   }
 }

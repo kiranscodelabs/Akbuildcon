@@ -5,7 +5,11 @@ A responsive, single-page HTML/CSS/JavaScript recreation inspired by the supplie
 ## Run it
 1. Extract the ZIP.
 2. Open `index.html` in Chrome, Edge, or Firefox.
-3. Internet access is needed for the Google font and remote Unsplash images. No Python, Node.js, or IDE is required.
+3. Internet access is only needed for the Google font. The property and leadership images are stored locally in `assets/`. No Python, Node.js, or IDE is required.
+
+## Property images
+- The home page hero and property gallery use the supplied building, rendering, interior and floor-plan images in `assets/`.
+- The gallery labels the floor plan as an example; confirm it matches an available unit before sharing it as a specific unit plan.
 
 ## Included interactions
 - Expandable FAQs
